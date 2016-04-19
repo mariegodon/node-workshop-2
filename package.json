@@ -1,0 +1,27 @@
+{
+  "name": "my-first-module",
+  "version": "1.0.0",
+  "description": "My first module, fortune teller game, weather, and words",
+  "main": "call-callbacks.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariegodon/node-workshop-2.git"
+  },
+  "keywords": [
+    "fortune",
+    "teller",
+    "weather",
+    "word",
+    "first",
+    "module"
+  ],
+  "author": "Marie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariegodon/node-workshop-2/issues"
+  },
+  "homepage": "https://github.com/mariegodon/node-workshop-2#readme"
+}
