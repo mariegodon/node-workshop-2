@@ -16,11 +16,9 @@ function lastChar(someString, callback) {
 function getFirstAndLast(someString, callback) {
     firstChar(someString, function(first){
         lastChar(someString, function(last){
-            var firstAndLast = first.concat(last);
-            callback(firstAndLast);
+            callback(first + last);
         });
     }); 
-
 }
 
 getFirstAndLast("hello", function(firstLast) {
